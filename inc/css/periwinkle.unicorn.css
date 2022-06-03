@@ -1,0 +1,85 @@
+/*
+ Theme Name:   Periwinkle Unicorn
+ Theme URI:    https://periwinkle.blue
+ Author:       Dane Aleksander
+ Author URI:   https://danealeksander.github.io/
+ Version:      1.9.6
+*/
+
+ul.periwinkle-blue-feature li {
+  /* list-style: decimal inside; */
+}
+
+ul.periwinkle-blue-list li /* h3 */ {
+  font-size: calc( 4em / 3 );
+  margin-top: 1em;
+}
+
+ul.periwinkle-blue-list li a /* h3 */ {
+  font-size: calc( 3em / 2 );
+}
+
+ul.periwinkle-blue-list h4 {
+  /* display: none; */
+}
+
+ul.periwinkle-blue-list li a {
+  color: #dadada;
+  cursor: default;
+}
+
+ul.periwinkle-blue-list li a.periwinkle-blue,
+p a.periwinkle-blue,
+font.periwinkle-blue {
+  color: #ccccff;
+}
+
+p a.periwinkle-blue:hover {
+  /* color: ; */
+}
+
+a.periwinkle-blue:hover,
+a:hover .periwinkle-blue,
+li.periwinkle-blue a {
+  color: #ccccff;
+}
+
+#dark.dark-periwinkle-blue pre.thin {
+  /* border: #ccccff thin solid; */
+}
+#dark.dark-periwinkle-blue nav .page li.active em,
+#dark.dark-periwinkle-blue nav .page li.scene em {
+  color: #222222 !important;
+}
+#dark.dark-periwinkle-blue .page li.active a,
+#dark.dark-periwinkle-blue .page li.scene {
+  background: #ccccff;
+}
+nav ul li.periwinkle-blue {
+  border-color: #ccccff;
+}
+
+#dark:: -webkit-scrollbar-thumb { background: #ccccff; }
+
+@media only screen
+and ( max-width: 960px ) {
+
+  ul.periwinkle-blue-list li {
+    font-size: 1em;
+  }
+
+  ul.periwinkle-blue-list li a {
+    font-size: calc( 11em / 9 );
+  }
+
+}
+
+
+@media only screen
+and ( max-width: 768px ) {
+
+  ul.periwinkle-blue-list li a {
+    font-size: 1em;
+  }
+
+}
