@@ -1,6 +1,6 @@
-# Pages caches
+# Caches #
 _*
 _*/
 
 *.sitemap.xml
-.htaccess
+robots.txt
