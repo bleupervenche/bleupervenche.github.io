@@ -444,7 +444,8 @@
       pb2020 = document.getElementById("periwinkle-2020-a"),
       pb2021 = document.getElementById("periwinkle-2021-a"),
       pb2022 = document.getElementById("periwinkle-2022-a"),
-      pb2023 = document.getElementById("periwinkle-2023-a");
+      pb2023 = document.getElementById("periwinkle-2023-a"),
+      pb2024 = document.getElementById("periwinkle-2024-a");
 
   pb2015.style.display = "none";
   pb2016.style.display = "none";
@@ -455,6 +456,17 @@
   pb2021.style.display = "none";
   pb2022.style.display = "none";
   pb2023.style.display = "none";
+  pb2024.style.display = "none";
+
+  function pb2024_fn() {
+    if (pb2024.style.display == "none") {
+      pb2024.style.display = "block";
+      document.querySelector('#periwinkle-2024').scrollIntoView({ behavior: 'smooth' });
+    }
+    else {
+      pb2024.style.display = "none";
+    }
+  };
 
   function pb2023_fn() {
     if (pb2023.style.display == "none") {
