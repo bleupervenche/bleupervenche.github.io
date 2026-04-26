@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+Disallow: /inc/
+
+# Sitemap #
+
+Sitemap: /periwinkle.blue.sitemap.xml
+
+
+
+# AI #
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
