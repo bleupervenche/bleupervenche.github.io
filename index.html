@@ -44,15 +44,40 @@
     <h1 class="title"><a href="//animathabitat.org"><font class="clear">Animat<font class="letterspace"> </font><font class="thin">Habitat</font></font></a></h1>
     <h3>Not-for-profit wildlife art publication &nbsp;<b>&middot;</b>&nbsp; <a class="overscore" href="//animathabitat.org" title="Animat Habitat">Official&nbsp;Website</a></h3>
 
-    <h4 class="letterhead"><font class="color"><font class="regular">periwinkle</font><font class="letterspace">&nbsp;</font>.<font class="letterspace">&nbsp;</font><font class="regular">blue</font></font> &nbsp;&middot;&nbsp; <font class="thin">Annual&nbsp;Nature&nbsp;Documentary</font> &nbsp;&middot;&nbsp; <font class="thin"><a class="overscore" href="award/audio-production/" title="Periwinkle Blue / Annual Nature Documentary Award: Best Audio">Audio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a class="overscore" href="award/motion-picture/" title="Periwinkle Blue / Annual Nature Documentary Award: Best Picture">Picture</a></font></h4>
+    <h4 class="letterhead"><font class="color"><font class="regular">periwinkle</font><font class="letterspace">&nbsp;</font>.<font class="letterspace">&nbsp;</font><font class="regular">blue</font></font> &nbsp;&middot;&nbsp; <font class="thin"><a class="overscore" href="award/" title="Periwinkle Blue / Annual Nature Documentary Awards">Annual&nbsp;Nature&nbsp;Documentary&nbsp;Awards</a></font></h4>
 
-    <h5 class="letterhead"><a class="color" href="//dane.periwinkle.blue/101/">&#9733;&#9733;&#9733;&#9733;</a></h5>
+    <h5 class="letterhead"><a class="color" onclick="pb_a_fn(pb_a_feature);">&#9733;&#9733;&#9733;&#9733;</a></h5>
+    <div id="periwinkle-feature">
+        <h5><font class="color">Dane Aleksander</font> &nbsp;&middot;&nbsp; <a class="overscore" href="//dane.periwinkle.blue/101/">Cinema 101</a></h5>
+
+        <h5 class="linebreak"><a onclick="pb_a_fn(pb_a_feature);">&#9733;&#9733;&#9733;&#9733;</a></h5>
+
+    </div>
 
     <h5 class="letterhead small">Official websites of a terribly partial publishing house designed and developed by <a class="overscore" href="//dane.periwinkle.blue" title="Dane Aleksander, graphic artist.">Dane Aleksander</a>.</h5>
-    <!-- <h5 class="linebreak small">Address <b>&middot;</b> <a href="mailto:inbox@periwinkle.blue" title="Inbox of Dane Aleksander.">inbox&nbsp;[at]&nbsp;periwinkle.blue</a></h5> -->
+    <h5 class="linebreak small">Address &middot; <a class="overscore" href="mailto:inbox@periwinkle.blue" title="Inbox of Dane Aleksander.">inbox&nbsp;[at]&nbsp;periwinkle.blue</a></h5>
 
   </div>
 
 </body>
+
+<script>
+
+    var pb_a_feature = document.getElementById("periwinkle-feature");
+
+    pb_a_feature.style.display = "none";
+
+    function pb_a_fn(pb_a) {
+        if (pb_a.style.display == "none") {
+            pb_a.style.display = "block";
+
+            document.querySelector('#periwinkle-feature').scrollIntoView({ behavior: 'smooth' });
+        }
+        else {
+            pb_a.style.display = "none";
+        }
+    };
+
+</script>
 
 </html>
