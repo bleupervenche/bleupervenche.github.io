@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="https://www.google.com/schemas/sitemap/0.9"
+  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.google.com/schemas/sitemap/0.9
+                      https://www.google.com/schemas/sitemap/0.9/sitemap.xsd">
+
+  <url>
+    <loc>https://periwinkle.blue/</loc>
+    <lastmod>2026-04-27</lastmod>
+    <priority>1</priority>
+  </url>
+
+  <url>
+    <loc>https://periwinkle.blue/award/</loc>
+    <lastmod>2026-04-27</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://periwinkle.blue/award/2015/</loc>
+    <lastmod>2016-06-27</lastmod>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://periwinkle.blue/award/2016/</loc>
+    <lastmod>2017-06-26</lastmod>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://periwinkle.blue/award/2017/</loc>
+    <lastmod>2018-06-25</lastmod>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://periwinkle.blue/award/2018/</loc>
+    <lastmod>2019-06-24</lastmod>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://periwinkle.blue/award/2019/</loc>
+    <lastmod>2020-06-29</lastmod>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://periwinkle.blue/award/2020/</loc>
+    <lastmod>2021-06-28</lastmod>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://periwinkle.blue/award/2021/</loc>
+    <lastmod>2022-06-27</lastmod>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://periwinkle.blue/award/2022/</loc>
+    <lastmod>2023-06-26</lastmod>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://periwinkle.blue/award/2023/</loc>
+    <lastmod>2024-06-24</lastmod>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://periwinkle.blue/award/2024/</loc>
+    <lastmod>2025-06-30</lastmod>
+    <priority>0.1</priority>
+  </url>
+  <!-- <url>
+    <loc>https://periwinkle.blue/award/2025/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <priority>0.1</priority>
+  </url> -->
+
+  <url>
+    <loc>https://periwinkle.blue/robots.txt</loc>
+    <lastmod>2023-01-01</lastmod>
+    <priority>0.1</priority>
+  </url>
+
+</urlset>
