@@ -12,15 +12,15 @@
 
     <title>Periwinkle Blue &ndash; Annual Nature Documentary Award &ndash; 2024</title>
 
+    <style>
+        html { background-color: #222; }
+        body, a { color: #222; }
+
+        </style>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500" />
-
-    <style>
-    html { background-color: #222; }
-    body, a { color: #222; }
-
-    </style>
 
     <link rel="preconnect" href="https://animathabitat.org" />
     <link rel="stylesheet" href="https://animathabitat.org/inc/css/dark.light.unicorn.css" type="text/css" />
@@ -30,7 +30,7 @@
 
     <link rel="icon" href="../../inc/ico/matte.periwinkle.png" />
 
-</head>
+    </head>
 
 <body class="fadein single" id="rainbow-unicorn">
 
@@ -40,9 +40,9 @@
             <li class="crumb btn color"><a href="../" title="Periwinkle Blue / Annual Nature Documentary Award">&amp;<font class="small btn-star">&nbsp;&#9733;&#9733;</font></a></li>
             <li class="crumb active color"><a><i>2024</i></a></li>
 
-        </ul>
+            </ul>
 
-    </nav>
+        </nav>
 
     <div class="quote text-center" id="periwinkle-unicorn">
 
@@ -55,7 +55,7 @@
 
         <ul class="letterhead letterend periwinkle-list">
 
-            <h5><font class="color">&#9733;</font>&nbsp;<a class="overscore title" onclick="pb_a_fn(pb_bp_a);">Best Picture</a>&nbsp;<font class="color">&#9733;</font></h5>
+            <h5><font class="color">&#9733;</font>&nbsp;<a class="overscore title" onclick="toggle(pb_bp_a);">Best Picture</a>&nbsp;<font class="color">&#9733;</font></h5>
 
             <div class="clear" id="periwinkle-best-picture-a">
 
@@ -64,7 +64,7 @@
                 <p class="lineend">David Attenborough (narrator)</p>
                 <h5 class="lineend"><a class="overscore" href="//bbcearth.com/shows/asia" target="_blank" title="BBC Earth / Shows / Asia">bbcearth.com</a></h5>
 
-            </div>
+                </div>
 
             <p class="letterhead title"><font class="color">Nominees</font></p>
 
@@ -83,13 +83,13 @@
             <li>Tiger &middot;&nbsp;<font class="color">Tigers on the Rise</font> [90m, 77m]</li>
             <p>Disney Nature</p>
 
-        </ul>
+            </ul>
 
         <pre class="thin" id="sound"></pre>
 
         <ul class="letterhead letterend periwinkle-list">
 
-            <h5><font class="color">&#9733;</font>&nbsp;<a class="overscore title" onclick="pb_a_fn(pb_s_a);">Sound</a>&nbsp;<font class="color">&#9733;</font></h5>
+            <h5><font class="color">&#9733;</font>&nbsp;<a class="overscore title" onclick="toggle(pb_s_a);">Sound</a>&nbsp;<font class="color">&#9733;</font></h5>
 
             <div class="clear" id="periwinkle-sound-a">
 
@@ -98,7 +98,7 @@
                 <p class="lineend">Nick Mott (host)</p>
                 <h5 class="lineend"><a class="overscore" href="//www.mtpr.org/wideopen/" target="_blank" title="Montana Public Radio / The Wide Open">mtpr.org</a></h5>
 
-            </div>
+                </div>
 
             <p class="letterhead title"><font class="color">Nominees</font></p>
 
@@ -111,39 +111,43 @@
             <li>Threshold &middot;&nbsp;Season 5: Hark [Series]</li>
             <p>Auricle Productions</p>
 
-        </ul>
+            </ul>
 
         <pre class="thin"></pre>
 
-    </div>
+        </div>
 
     <footer>
         <div class="quote">
             <p class="small">Published 30 June 2025.</p>
 
-        </div>
+            </div>
 
-    </footer>
+        </footer>
 
-</body>
+    </body>
 
 <script>
 
-    var pb_bp_a = document.getElementById("periwinkle-best-picture-a"),
-        pb_s_a = document.getElementById("periwinkle-sound-a");
+    var pb_bp_a = document.getElementById( "periwinkle-best-picture-a" ),
+        pb_s_a = document.getElementById( "periwinkle-sound-a" );
 
-    pb_bp_a.style.display = "none";
-    pb_s_a.style.display = "none";
+        pb_bp_a.style.display = "none";
+        pb_s_a.style.display = "none";
 
-    function pb_a_fn(pb_a) {
-        if (pb_a.style.display == "none") {
+    function toggle( pb_a ) {
+
+        if ( pb_a.style.display == "none" ) {
+
             pb_a.style.display = "block";
-        }
-        else {
-            pb_a.style.display = "none";
-        }
-    };
 
-</script>
+            } else {
+
+            pb_a.style.display = "none";
+
+            }
+        };
+
+    </script>
 
 </html>
