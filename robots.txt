@@ -4,9 +4,7 @@ Allow: /
 Disallow: /e/
 Disallow: /inc/
 
-# Sitemap #
 
-Sitemap: /periwinkle.blue.sitemap.xml
 
 # AI #
 
@@ -15,3 +13,12 @@ Disallow: /
 
 User-agent: GPTBot
 Disallow: /
+
+User-agent: __usage_ai-training
+Disallow: /
+
+
+
+# Sitemap #
+
+Sitemap: /periwinkle.blue.sitemap.xml
